@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS accounts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    account_number VARCHAR(20) UNIQUE NOT NULL,
+    account_holder VARCHAR(100) NOT NULL,
+    balance DECIMAL(10,2) NOT NULL
+);
