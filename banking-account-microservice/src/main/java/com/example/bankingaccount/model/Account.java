@@ -19,13 +19,13 @@ public class Account {
     @Column(nullable = false)
     private double balance;
 
-    // Getters
+    
     public int getId() { return id; }
     public String getAccountNumber() { return accountNumber; }
     public String getAccountHolder() { return accountHolder; }
     public double getBalance() { return balance; }
 
-    // Setters
+    
     public void setId(int id) { this.id = id; }
     public void setAccountNumber(String accountNumber) { this.accountNumber = accountNumber; }
     public void setAccountHolder(String accountHolder) { this.accountHolder = accountHolder; }
